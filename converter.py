@@ -9,7 +9,7 @@ while True:
 
     mile = km * 0.621371
 
-    print(str(km) + " kilometara iznosi " + str(mile) + " milja.")
+    print(f"{km} kilometara iznosi {mile} milja.")
 
     nastavak = input("Želite li nastaviti pretvarati? yes/no")
 
